@@ -56,7 +56,7 @@ OR:
 python3 app.py
 ```
 
-Access the application through your web browser at http://0.0.0.0:5000.
+Access the application through your web browser at http://127.0.0.1:5000/predict
 
 Enter the values for the biomarkers mentioned above into the provided input fields.
 
