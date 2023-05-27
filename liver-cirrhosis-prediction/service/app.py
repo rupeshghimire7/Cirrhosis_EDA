@@ -7,8 +7,10 @@
 #        'SGOT', 'Tryglicerides', 'Platelets', 'Prothrombin']
 
        
-from flask import Flask
+from flask import Flask, redirect, url_for
+import routes
 from routes import bp
+
 
 app=Flask(__name__,template_folder='.')
 
@@ -18,8 +20,7 @@ app.register_blueprint(bp)
 
 @app.route("/")
 def home():
-	print("Url request: ")
-	return "Hey! Hou u doin?"
+	return redirect(url_for('predict_routes.index'))
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
