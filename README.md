@@ -62,3 +62,4 @@ Enter the values for the biomarkers mentioned above into the provided input fiel
 
 Click the "Predict" button to obtain the liver cirrhosis prediction result.
 
+![image](https://github.com/rupeshghimire7/Liver_Cirrhosis_Prediction/assets/62866358/fd07bb6b-b70a-4712-b91c-3b5595a80143)
